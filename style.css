@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .container {
     display: flex;
@@ -17,16 +18,22 @@ footer {
     color: #E5EFEB;
     padding: 16px;
 }
+.ratTitle{
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+}
 /* Rat images and captions */
 .ratContainer {
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 .rat {
-    flex-direction: column;
+    flex-direction: column;  /*holds ratImage and ratCaption in one container*/
     align-items: center;
     flex: 0 1 auto;  /* flex-growth set to 0 to maintain width at any size*/
-    margin: 48px 16px 30px 16px;
+    margin: 16px 16px 30px 16px;
 }
 .ratImage {
     min-height: 160px;
@@ -39,7 +46,7 @@ footer {
     flex-wrap: wrap;
     font-size: 12px;
     width: 160px;
-    padding: 8px 0 0 0;
+    padding-top: 8px;
     line-height: 18px;
 }
 /* Quote */
