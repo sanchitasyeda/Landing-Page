@@ -12,6 +12,10 @@ footer {
     justify-content: center;
     align-items: center;
     color: #E5EFEB;
+    padding: 1rem;
+}
+.cardContainer {
+    display: flex;
 }
 .card {
     justify-content: space-evenly;
@@ -19,4 +23,6 @@ footer {
     border-radius: 15px;
     border: 2px solid #73AD21;
     flex: 1 1 auto;
+    margin: 3rem 3rem 5rem 3rem;
+    height: 5rem;
 }
