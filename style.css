@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    height: auto;
+}
+header {
+    background-color: #1F2937;
+    display: flex;
+}
+footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #E5EFEB;
+}
+.card {
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #73AD21;
+    flex: 1 1 auto;
+}
