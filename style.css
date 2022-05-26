@@ -1,3 +1,6 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     display: flex;
     height: auto;
@@ -25,4 +28,26 @@ footer {
     flex: 1 1 auto;
     margin: 3rem 3rem 5rem 3rem;
     height: 5rem;
+}
+.quoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.quote {
+    padding: 5rem 4rem 4rem 4rem;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0rem 18rem 0rem 18rem;
+}
+.quoteAuthor {
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 18px;
+    font-style: normal;
+    padding: 0 5rem 0 0;
 }
